@@ -1,0 +1,142 @@
+html
+{
+	padding:0;
+	margin:0;
+}
+body
+{
+	background:#eee;
+	padding:0;
+	margin:0;
+	min-height:600px;
+	min-width:1240px;
+	font-size:0.5em;
+	font-family:arial;
+}
+	#full_body
+	{
+		
+	}
+	
+		#dashboard_hd
+		{
+			width:100%;
+			height:4%;
+			background:#2ad;
+		}
+		
+		#app_body
+		{
+			width:99%;
+			height:93%;
+			margin-left:0;
+			margin-right:1%;
+			background:#eee;
+		}
+			#left_pane
+			{
+				float:left;
+				width:15%;
+				height:100%;
+				background:#444;
+				border-right:0px solid #999;
+			}
+				#left_pane_head
+				{
+					height:20%;
+					border-bottom:2px solid #555;
+				}
+					#left_pane_head_top
+					{
+						text-align:center;
+						padding-top:5%;
+						height:60%;
+						cursor:pointer;
+					}
+						#left_pane_head_top img
+						{
+							height:100%;
+							width:40%;
+							opacity:0.7;
+							
+						}
+							#left_pane_head_top img:hover
+							{
+								opacity:1;
+							}
+			#right_pane
+			{
+				float:right;
+				width:83%;
+				height:95%;
+				background:#right_pane_top;
+				margin-top:1%;
+				/*box-shadow:1px 2px 4px #bbb;*/
+			}
+				#right_pane_top
+				{
+					background:#fff;
+					width:97%;
+					height:2%;
+					padding:1%;
+					padding-bottom:2%;
+					box-shadow:1px 1px 3px #ddd;
+					border-radius:3px;
+					color:#999;
+					font-size:2.4em;
+					font-weight:bold;
+					text-align:left;
+					letter-spacing:0px;
+				}
+				
+				#right_pane_loader
+				{
+					float:left;
+					width:65%;
+					height:80%;
+				}
+					iframe 
+					{
+						border:none;
+						width:100%;
+						height:100%;
+						background:#fff;
+						box-shadow:1px 1px 3px #ddd;
+						margin-top:2%;
+						border-radius:3px;
+					}
+				#right_pane_right_features
+				{
+					float:right;
+					width:33%;
+					height:90%;
+					background:#eee;
+				}
+					#right_pane_right_features_right
+					{
+						float:left;
+						width:49%;
+						height:98%;
+					}
+					#right_pane_right_features_left
+					{
+						float:right;
+						width:49%;
+						height:98%;
+					}
+						.right_pane_right_features_boxes
+						{
+							background:#fff;
+							width:89%;
+							height:30%;
+							border-radius:1px;
+							box-shadow:2px 2px 5px #aaa;
+							margin-bottom:5em;
+						}
+							.right_pane_right_features_boxes_hd
+							{
+								background:#2ab;
+								height:15%;
+								width:100%;
+								border-bottom:2px solid #888;
+							}
