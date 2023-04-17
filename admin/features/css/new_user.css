@@ -1,0 +1,111 @@
+body
+{
+	font-family:calibri;
+	/* background:#eee; */
+	letter-spacing:0.3px;
+	
+}
+#usrbody
+{
+	background:#eee;
+	width:95%;
+	height:99%;
+	border-radius:3px;
+	margin-top:1em;
+	padding:0.5em;
+	
+}
+	#usrbody_hd
+	{
+		color:#28a;
+		font-size:1.8em;
+		font-weight:bold;
+	}
+	#usr_div
+	{
+		margin-top:em;
+		background:#eee;
+		padding:em;
+	}
+		.u_d_secz
+		{
+			margin-top:0.4em;
+			border:1px solid #ddd;
+			height:4.5em;
+			weight:80%;
+			padding:0.5em;
+			background:#fff;
+		}
+			.us_s_txt
+			{
+				color:#28a;
+				font-weight:bold;
+			}
+			.us_s_input
+			{
+				margin-top:0.3em;
+			}
+				.us_s_input input
+				{
+					border:2px solid #28a;
+					padding:0.5em;
+					border-radius:2px;
+					font-size:1em;
+					font-weight:bold;
+					opacity:0.6;
+				}.us_s_input input:hover
+				{
+					opacity:1;
+				}.us_s_input input:active
+				{
+					opacity:1;
+					background:#2af;
+					color:#fff;
+				}
+				.us_s_input_msg
+				{
+					color:#d00;
+				}
+			select
+			{
+				background:#fff;
+				background:linear-gradient(#fff, #fff, #fff, #ccc);
+				border:2px solid #28a;
+				padding:0.5em;
+				border-radius:2px;
+				font-size:1.2em;
+				font-weight:bold;
+				opacity:0.6;
+				}select :hover
+				{
+					opacity:1;
+				}select :active
+				{
+					opacity:1;
+					background:#2af;
+					color:#fff;
+				}
+			#us_s_submit
+			{
+				float:right;
+				margin-top:1em;
+			}
+				#us_s_submit button
+				{
+					width:10em;
+					text-align:center;
+					height:2em;
+					padding:2em;
+					padding-bottom:2em;
+					padding-top:1em;
+					font-size:1.2em;
+					background:#2af;
+					border:0;
+					border-radius:2px;
+					color:#fff;
+					cursor:pointer;
+				}				
+				#us_s_submit img 
+				{
+					width:1em;
+				}

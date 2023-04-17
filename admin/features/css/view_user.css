@@ -1,0 +1,31 @@
+.userz_list
+{
+	margin-top:1em;
+	background:#fff;
+	background:linear-gradient(#eee, #eee, #eee, #eee, #ddd); 
+	padding:1%;
+	border:2px solid #ddd;
+	cursor:pointer;
+	font-size:1.2em;
+	font-weight:bold;
+	color:#08a;
+}.userz_list:hover
+{
+	box-shadow:0px 0px 10px #888;
+}
+	.cat_prod_itms_num
+	{
+		
+	}
+	.cat_prod_itms_z
+	{
+		
+	}
+	.cat_prod_itms_values
+	{
+		display:;
+	}
+		.users_listz
+		{
+			
+		}

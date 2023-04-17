@@ -1,0 +1,59 @@
+#z_header
+{
+}
+	#first_head
+	{
+		float:left;
+		background:#2066aa;
+		font-family:georgia;
+		text-shadow:0px  0px 1px #000;
+		height:1em;
+		width:100%;
+		min-width:1024px;
+		color:#fff;
+		font-size:1em;
+		border-bottom:1px solid #aaa;
+	}
+		#z_icon_head
+		{
+			
+		}
+	#sub_app_div
+	{
+		clear:both;
+		background:#888;
+		font-family:georgia;
+		text-shadow:0px  0px 1px #000;
+		height:2em;
+		width:96%;
+		min-width:1024px;
+		color:#fff;
+		font-size:1em;
+		padding-left:4%;
+		padding-top:0.5em;
+	}
+	#sub_app_name
+	{
+		float:left;
+		font-size:0.8em;
+		font-family:tahoma;
+		font-weight:bold;
+		text-shadow:0px  0px 1px #000;
+	}
+		#sub_app_client_title
+		{
+			font-size:2em;
+			font-family:cambria;
+		}
+		#sub_app_client_app
+		{
+			color:#ddd;
+		}
+	#sub_app_date
+	{
+		float:right;
+		font-size:0.8em;
+		font-family:georgia;
+		color:#eee;
+		text-shadow:0px  0px 1px #000;
+	}
